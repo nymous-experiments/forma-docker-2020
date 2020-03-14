@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY main.py ./
 
-CMD uvicorn main:app --host 0.0.0.0
+CMD uvicorn mon_api.main:app --host 0.0.0.0
